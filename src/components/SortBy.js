@@ -11,7 +11,7 @@ const SortBy = ({sortValue,setsortValue}) => {
     return (
         <div>
             <FormControl >
-                <InputLabel id="demo-simple-select-label">Age</InputLabel>
+                <InputLabel id="demo-simple-select-label">Sort By</InputLabel>
                     <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
