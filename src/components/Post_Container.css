@@ -1,0 +1,9 @@
+.bordered {
+    border: double;
+} 
+
+.poster-color {
+    background-color: rgb(43, 38, 38); 
+    margin-bottom: "50px";
+} 
+

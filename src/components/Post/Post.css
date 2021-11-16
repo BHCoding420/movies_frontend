@@ -1,0 +1,77 @@
+img {
+    height: 200px;
+  width: 50%;
+}
+
+.movie_title { 
+  margin-top: -10px;
+  margin-left: 3%;
+  text-align: left;  
+  
+  
+}
+.movie_score{
+  text-align: left;
+  float: right;
+} 
+
+.main-container{
+  background-color: rgb(58, 52, 52); 
+}  
+
+h1,h6,p,h3 {
+  color: rgb(218, 165, 32)
+} 
+
+h1 {
+  font-size: 2.5rem;
+} 
+
+h3 {
+  background-color:rgb(71, 64, 64); 
+   
+  padding-bottom: 0.5rem; 
+  padding-left: 0.3rem; 
+  float: left;
+}
+
+.rounded {
+  
+  border-style: solid; 
+  border-radius: 20px; 
+  transition: 0.5s; 
+  background-color: transparent; 
+  color: goldenrod;
+  margin-right: 0.5rem;
+  padding: 0.3rem; 
+  cursor: pointer; 
+  font-weight: bold;
+} 
+
+.rounded:hover{
+  
+  transform: scale(1.1);
+}
+p1 {
+  color: yellow;
+} 
+
+.modify {
+  color:rgb(58, 52, 52);
+  background-color:rgb(218, 165, 32); 
+  border-radius: 0.4rem; 
+  cursor: pointer;
+} 
+
+p1 .modify {
+  font-size: medium;
+}
+
+.star {
+   
+  position:relative;  
+  
+   
+  top:0.25rem; 
+  margin-right: 0.15rem;
+}

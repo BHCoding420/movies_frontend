@@ -1,0 +1,24 @@
+.ModalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400;
+    background-color: rgba(27, 18, 18, 0.295);
+    border: 2px solid #000;
+    
+    
+}; 
+
+.input-field {
+    color: rgb(255, 255, 255); 
+    
+}
+.test {
+    background-color: green;
+}
+.input_value {
+    
+    background-color: blue;
+}
+
