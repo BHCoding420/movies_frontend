@@ -182,7 +182,7 @@ function Main()
         </FormControl>
         
           </div>*/} 
-      <h5 style={{color:"goldenrod"}}>The Website design is inspired by PornHub design</h5> 
+      
         
       {!Posts && <CircularProgress size={125} style={{padding: "100px"}}/>}
       {(Posts && viewComponent == "posts_container") && <Posts_Container Posts={!searchfield ? Posts : Posts.filter(post => post.title.toUpperCase().includes(searchfield.toUpperCase()))} setPosts={setPosts} user={user} reviews={reviews} setreviews={setreviews} OgPosts={OgPosts} setOgPosts={setOgPosts} /> }
