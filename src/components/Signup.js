@@ -17,12 +17,12 @@ const Signup = () => {
         e.preventDefault(); 
         
             const res = await register(signupData)
-            .then(res => console.log(res))
+            .then(res => window.location = "/")
             .catch(error => {console.log(error.response.data);seterror(error.response.data)}) 
 
             
             
-            window.location = "/";
+            
             
         
     
